@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Black Friday Laptop Deals</title>
+<title>Black Friday Deals</title>
 <style>
 :root{--bg:#f6f7f9;--card:#fff;--text:#16181d;--muted:#5b6270;--accent:#0046be;--deal:#c8102e;--border:#e2e5ea;--note:#fff6d6;--noteb:#e6cf7a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1013;--card:#181b21;--text:#f1f3f6;--muted:#9aa2b1;--accent:#6ea0ff;--deal:#ff6b7f;--border:#2a2f38;--note:#2b2710;--noteb:#6b5f1f;color-scheme:dark}}
@@ -22,11 +22,15 @@ h2{font-size:1.05rem;margin:2px 0 6px}
 .specs{color:var(--muted);font-size:.9rem;margin:6px 0 10px}
 .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;font-size:.9rem;padding:8px 14px;border-radius:8px}
 .foot{color:var(--muted);font-size:.75rem;margin-top:14px}
+.sec{font-size:1.15rem;margin:24px 0 10px}
+.sec.first{margin-top:0}
 </style>
 </head>
 <body>
 <main>
-  <h1>Black Friday Laptop Deals</h1>
+  <h1>Black Friday Deals</h1>
+
+  <h2 class="sec first">Laptop</h2>
 
   <p class="note">The important detail is having at least 16GB memory, 256GB storage. The Lenovo is the better computer.</p>
 
@@ -41,12 +45,24 @@ h2{font-size:1.05rem;margin:2px 0 6px}
   <section class="card">
     <div class="tag">Option 2</div>
     <h2>HP OmniBook 3 16"</h2>
-    <div class="price"><span class="now">$499.99</span><span class="was">$879.99</span></div>
+    <div class="price"><span class="now">$499.99</span><span class="was">$849.99</span></div>
     <p class="specs">Ryzen 5 · 16GB · 256GB · Touchscreen</p>
     <a class="btn" href="https://www.bestbuy.com/product/hp-omnibook-3-16-2k-touchscreen-laptop-amd-ryzen-5-40-16gb-memory-256gb-ssd-glacier-silver/JJGWKLZ8PK/sku/6667884" target="_blank" rel="noopener">View at Best Buy</a>
   </section>
 
-  <p class="foot">Prices from Best Buy listings and may change.</p>
+  <h2 class="sec">Printer</h2>
+
+  <p class="note">A laser printer uses toner, not liquid ink, so it can't dry out when unused. This option is black-and-white.</p>
+
+  <section class="card">
+    <div class="tag">Printer</div>
+    <h2>Brother HL-L2420DW</h2>
+    <div class="price"><span class="now">$124.99</span></div>
+    <p class="specs">Wireless · Black &amp; white laser · Compact · Duplex · Mobile printing</p>
+    <a class="btn" href="https://www.walmart.com/ip/Brother-HL-L2420DW-Wireless-Compact-Monochrome-Laser-Printer-with-Duplex-Mobile-Printing/5066099135" target="_blank" rel="noopener">View at Walmart</a>
+  </section>
+
+  <p class="foot">Laptop prices from Best Buy listings, printer price from Walmart. Prices may change.</p>
 </main>
 </body>
 </html>
